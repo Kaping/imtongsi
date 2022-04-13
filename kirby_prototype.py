@@ -55,11 +55,11 @@ image2_3 = pifacecad.LCDBitmap([0x00,
 
 def draw_kirby():
     cad.lcd.clear()
-    cad.lcd.set_cursor(position,0)
+    cad.lcd.set_cursor(0,0)
     cad.lcd.write_custom_bitmap(0)
     cad.lcd.write_custom_bitmap(1)
     cad.lcd.write_custom_bitmap(2)
-    cad.lcd.set_cursor(position,1)
+    cad.lcd.set_cursor(0,1)
     cad.lcd.write_custom_bitmap(3)
     cad.lcd.write_custom_bitmap(4)
     cad.lcd.write_custom_bitmap(5)
